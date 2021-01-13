@@ -1,3 +1,3 @@
 #Kokoa Colone 2021 Update
 
-CSS Got so much better!
+HTML & CSS are so much fun!
