@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+body{
+    font-family:-apple-system, BlinkMacSystemFont,'Montserrat', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.squarestyle{
+    border-radius: 20px;
+}
+.totalscreen{
+    margin-top:10px;
+    margin-left:5px;
+    width:300px;
+    height:700px;
+    border: 5px solid turquoise;
+}
+.totalscreen div{
+    margin-left:10px;
+}
+.playlist__header{
+    font-size: 30px;
+
+}
+
+
+.playlist__column{
+    margin-top:50px;
+    padding-left:10px;
+    width:180px;
+    height:50px;
+    background-color: tomato;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.current-music{
+    margin-top:30px;
+    width:280px;
+    height:100px;
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+}
+.current-music__square{
+
+    width:90px;
+    height:90px;
+    margin-right:3px;
+    background-color: #FEBE10;
+    border: 2px solid black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-file-image{
+    color: white;
+}
+
+.current-music__property{
+     width:130px;
+     height:90px;
+     background-color: white;
+     display:flex;
+     flex-direction: column;
+     justify-content: center;
+}
+.current-music__song-name{
+    font-size: 33px;
+    font-weight: 700;
+}
+.current-music__singer-name{
+    font-size: 10px;
+    font-weight: 600;
+    
+}
+.btn__column{
+    margin-top:30px;
+    width:280px;
+    height:80px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn{
+    box-shadow:2px 5px 1px black;
+    width: 60px;
+    height:60px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+}
+.btn-circle{
+        border-radius: 60px;
+}
+
+
+.btn__play{
+    width:100px;
+    height:60px;
+    background-color: white;
+}
+
+.play{
+    margin-left: 4px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+.playlist__total{
+    margin-top:30px;
+    width:280px;
+    height:320px;
+    background-color: hotpink;
+}
+
+.playlist__align{
+    width: 270px;
+    height: 75px;
+    background-color: teal;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+
+.small-square{
+    margin-bottom:5px;
+    width:50px;
+    height:50px;
+    background-color:tomato;
+    border: 2px solid black;
+}
+.playlist__property{
+    width:170px;
+    height:60px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.playlist__property__song-name{
+    font-size: 20px;
+}
+.playlist__property__singer-name{
+    font-size: 10px;
+
+}
+
+.red{
+    background-color: tomato;
+}
+.orange{
+    background-color:sandybrown;
+}
+
+.yellow{
+    background-color: navajowhite;
+}
+
+.blue{
+    background-color: navy;
+}

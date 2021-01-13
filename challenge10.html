@@ -2,33 +2,78 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="css/challenge10styles.css">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 
 <body>
-
-    <div class="playlist__column">
-        <!--X icon-->
-        <span>Playlist</span>
-    </div>
-
-    <div class="current-music">
-        <div class="current-music__square squarestyle">
-            <!--picture-icon-->
+    <div class="totalscreen">
+        <div class="playlist__column">
+            <i class="fas fa-times fa-2x"></i>
+            <span class="playlist__header">Playlist</span>
         </div>
-        <div class="current-music__property">
-            <span class="current-music__song-name">Random love</span>
-            <span class="current-music__singer-name">by Divay kapoor</span>
+
+        <div class="current-music">
+            <div class="current-music__square squarestyle">
+                <i class="far fa-file-image fa-2x"></i>
+            </div>
+            <div class="current-music__property">
+                <span class="current-music__song-name">Random love</span>
+                <span class="current-music__singer-name">by Divay kapoor</span>
+            </div>
+        </div>
+
+        <div class="btn__column">
+            <div class="btn__play btn squarestyle">
+                <i class="fas fa-play fa-lg"></i>
+                <span class="play">play</span>
+            </div>
+            <div class="btn__favorite btn btn-circle">
+                <i class="far fa-heart fa-lg"></i>
+            </div>
+            <div class="btn__add-to-List btn btn-circle">
+                <i class="fas fa-plus fa-lg"></i>
+            </div>
+
+        </div>
+
+        <div class="playlist__total">
+            <div class="playlist__align">
+                <div class="small-square red squarestyle"></div>
+                <div class="playlist__property">
+                    <span class="playlist__property__song-name">Matargasti</span>
+                    <span class="playlist__property__singer-name">Mohit Chauhan</span>
+                </div>
+            </div>
+            <div class="playlist__align">
+                <div class="small-square orange squarestyle"></div>
+                <div class="playlist__property">
+                    <span class="playlist__property__song-name">Attitude</span>
+                    <span class="playlist__property__singer-name">Lewis OfManㆍAttitude</span>
+                </div>
+            </div>
+            <div class="playlist__align">
+                <div class="small-square yellow squarestyle"></div>
+                <div class="playlist__property">
+                    <span class="playlist__property__song-name">Try Everything</span>
+                    <span class="playlist__property__singer-name">ShakiraㆍZootopia</span>
+                </div>
+            </div>
+            <div class="playlist__align">
+                <div class="small-square blue squarestyle"></div>
+                <div class="playlist__property">
+                    <span class="playlist__property__song-name">Sunflower</span>
+                    <span class="playlist__property__singer-name">Joseph Vincentㆍsunflower</span>
+                </div>
+            </div>
         </div>
     </div>
 
-    <div class="btn__column">
-        <div class="btn__play"></div>
-        <div class="btn__favorite"></div>
-        <div class="btn__add-to-List"></div>
-    </div>
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
