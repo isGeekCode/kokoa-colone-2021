@@ -44,7 +44,6 @@ body{
     width:340px;
     height:163px;
     margin: 23px 0px;
-    background-color: tomato;
     display:flex;
 
 }
@@ -53,13 +52,16 @@ body{
     margin-left:10px;
     width:105px;
     height:158px;
+    border-radius:10px;
+
 }
+
+
 
 .library__book-information{
     width:170px;
     height:158px;
     margin:0px 10px;
-    background-color: teal;
 }
 
 #book-first__h1{
@@ -92,7 +94,9 @@ body{
     margin: 5px 0px;
     width:70px;
     height:30px;
+    border-radius: 10px;
     background-color:#787878;
+    opacity: .7;
     font-size: 12px;
     display:flex;
     justify-content: center;
@@ -106,7 +110,6 @@ body{
 .library__book-last{
     width:170px;
     height:40px;
-    background-color: pink;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -143,8 +146,7 @@ body{
 .library__adventure-section{
 width:340px;
 height:163px;
-margin: 23px 0px;
-background-color: tomato;
+margin: 10px 10px;
 display:flex;
 align-items: center;
 justify-content: space-between;
@@ -159,6 +161,7 @@ align-items: center;
 .small-square{
 width:71px;
 height:108px;
+border-radius: 10px;
 }
 
 .small-star{
@@ -170,7 +173,6 @@ height:108px;
     width:340px;
     height:163px;
     margin: 23px 0px;
-    background-color: tomato;
     display: flex;
     
 
@@ -181,12 +183,12 @@ height:108px;
     width:105px;
     height:158px;
     object-fit: cover;
+    border-radius:10px;
 }
 .library__author-information{
     margin-left:20px;
-    width:190px;
+    width:220px;
     height:159px;
-    background-color: turquoise;
 
 }
 .library__author-title{
@@ -195,15 +197,18 @@ height:108px;
     opacity: .7;
     font-size:17px;
     font-weight: 600;
-background-color: yellow;
+    line-height: 25px;
+
 }
+
 .author-property{
-    width:150px;
+    margin-top:3px;
+    width:200px;
     height:107px;
     color: #787878;
-    font-size:12px;
-    background-color: violet;
-
+    font-size: 15px;
+    opacity: .7;
+    line-height: 25px;
 }
 
 
