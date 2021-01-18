@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat w/ Gikko - Kokoa Clone</title>
+</head>
+
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+    <!--header.alt-header>div.alt-header__column*3-->
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html">
+                <i class="fas fa-angle-left fa-2x"></i></a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Channel Gikko</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-bars fa-lg"></i></span>
+
+        </div>
+    </header>
+
+
+
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Tuesday, June 30, 2020
+        </div>
+
+        <div class="message-row">
+            <img
+                src="https://scontent-gmp1-1.xx.fbcdn.net/v/t1.0-9/22089236_1600032293400796_5350082193499118739_n.jpg?_nc_cat=110&ccb=2&_nc_sid=0debeb&_nc_eui2=AeHv133TkzNwxgmO0o04W4WIhRf8SRgV8MiFF_xJGBXwyPobhe1C20TJLg6MBi10vChF2D22fnWyofcrDOeOGo_t&_nc_ohc=IlL3ImaS7pcAX80x-yl&_nc_oc=AQnHxnupYrHpwTzZkDZAr_IwALNOqllOEJOEiOOImeGfXpE46QSG1KpkOJTtNfhGzmc&_nc_ht=scontent-gmp1-1.xx&oh=d7fa9ae8391e5fc6ee755fc52ca29c80&oe=602AEA33">
+            <div class="message-row__content">
+                <span class="message__author">Gikko</span>
+                <div class="message__info">
+                    <span class="message__bubble">Hi!</span>
+                    <span class="message__time">21:27</span>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">Hi nice to meet you!</span>
+                    <span class="message__time">21:28</span>
+
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message..." />
+            <i class="far fa-smile-wink"></i>
+            <button>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
